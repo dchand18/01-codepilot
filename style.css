@@ -1,4 +1,37 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Give the header a blue background and white text */
+header {
+    background-color: #0074d9; /* Blue */
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    margin-top: 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #005fa3;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+    background-color: #003f6b;
 }
